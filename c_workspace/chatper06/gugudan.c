@@ -11,6 +11,6 @@
 */
 int main (void) {
     for(int i=1; i <= 9; i++) {
-        printf("2 x %d = %d\n", i, 2*i);
+        printf("2 x %d = %d\n", i, 2*i);  //tip - i, 출력 쓰고하기 {ex)반복횟수9, i=10}
     }
 }

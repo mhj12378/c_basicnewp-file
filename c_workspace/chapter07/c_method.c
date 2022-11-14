@@ -47,6 +47,6 @@ int main (void) { // main함수(method)
 int sum(int x, int y) {                  //입력값을 가지고 호출하러 감 , 다시돌아가는 값전달: return 
     int temp;                           //temp 값 자료형 나타내는 곳 sum앞의 int
     temp = x + y;
-    return temp; //함수 종료 후 반환 값  (돌아갈때 가지고 가는 값)
+    return temp; //함수 종료 후 반환 값  (돌아갈때 가지고 가는 값)  //매개 변수로 값보냄 a,b
 }
 

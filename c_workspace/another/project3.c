@@ -1,18 +1,22 @@
 #include <stdio.h>
 
-//int main (void) {
-//    int k = 1;
-//    int pr
-//    printf("%d",k);
-//    for (int i=1; i<=6; i++) {
-//        if (i == 1) {
-//            printf("%d\n", i);
-//        } else if (i<=2) {
-//            k = i
-//            printf("%d", );
-//        }
-//    }
-//}
+int main (void) {
+    printf("출력:\n");
+    int k = 1;
+    int p, r;
+    printf("%d", k);
+    for (int i=1; i<=6; i++) {
+        if (i == 1) {
+            p = 1;
+            printf("%d", p);
+        } else if (i<=6) {
+            r = k + p;
+            printf("%d",r);
+            k = p;
+            p = r;
+        }
+    }
+}
 
 /**
  * 오늘부터 kiosk 프로그램
